@@ -17,7 +17,7 @@ This repository stores different sample scripts which illustrate how libcloud ca
 
 #5. Supported Libcloud Commands:
 
-<p>The table below shows the list of libcloud commands that are supported on VDC 2.0.</p>
+<p>The table below shows the list of libcloud commands that are supported on VDC 2.0. Any libcloud commands that are not in this list, are not supported by Interoute's VDC 2.0.</p>
 
 
 <div id="Libcloud Commands_2055" align=center x:publishsource="Excel">
