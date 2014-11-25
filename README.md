@@ -333,12 +333,6 @@ This repository stores different sample scripts which illustrate how libcloud ca
   target="_parent"><span style='color:blue'>destroyVirtualMachine</span></a></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl6732583 style='height:15.0pt;border-top:none'>deploy_node</td>
-  <td class=xl6932583 style='border-top:none;border-left:none'><a
-  href="http://cloudstore.interoute.com/main/knowledge-centre/library/api-article/vdc/20/deployVirtualMachine"
-  target="_parent"><span style='color:blue'>deployVirtualMachine</span></a></td>
- </tr>
- <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl6732583 style='height:15.0pt;border-top:none'>delete_key_pair</td>
   <td class=xl6932583 style='border-top:none;border-left:none'><a
   href="http://cloudstore.interoute.com/main/knowledge-centre/library/api-article/vdc/20/deleteSSHKeyPair"
