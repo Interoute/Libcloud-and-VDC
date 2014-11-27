@@ -1,7 +1,7 @@
 #Import of the connection driver
 import connection as vdc
 from libcloud.compute.base import NodeAuthPassword
-
+import random
 
 
 #Task: Creating a VM on Interoute's VDC 2.0
@@ -10,7 +10,7 @@ image = [image for image in vdc.getConn().list_images() if 'IRT-CENTOS-6.5' in i
 size = [size for size in vdc.getConn().list_sizes() if size.name == '6144-2'][0]
 net = [network for network in vdc.getConn().ex_list_networks() if 'London' in network.name]
 location = [location for location in vdc.getConn().list_locations() if 'London' in location.name][0]
-name = 'Interoute-Node'
+name = 'Interoute-Node' + str(random.randint(0, 100))
 
 #Creating the VM - Equivalent libcloud command: create_node
 print 'Creating node: ' + name
