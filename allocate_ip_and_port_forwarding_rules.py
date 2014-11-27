@@ -17,4 +17,4 @@ ip = driver.ex_allocate_public_ip(network_id=nic.network_id, location=location)
 print 'Creating port forwarding rules for node: ' + node.name
 SSH_rule = driver.ex_create_port_forwarding_rule(address=ip, private_port=22,public_port=22, protocol= 'TCP', node=node)
 HTTP_rule = driver.ex_create_port_forwarding_rule(address=ip, private_port=80,public_port=80, protocol= 'TCP', node=node)
-print 'You can access the created node via SSH at: ' str(node.public_ips[0])
+print 'You can access the created node via SSH at: ' + str(node.public_ips[0])
