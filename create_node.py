@@ -24,4 +24,4 @@ print 'Password: ' + node[0].extra['password']
 #Method getNode
 #Returns the node
 def getNode():
-        return node
+        return node[0]
