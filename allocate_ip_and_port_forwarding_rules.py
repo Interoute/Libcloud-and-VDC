@@ -5,7 +5,8 @@ import create_node as nodeCreator
 
 #Assigning the connection driver
 driver = vdc.getConn()
-#Allocating the public ip of the node
+
+#Allocation of the public ip of the node
 node = nodeCreator.getNode()[0]
 nic = driver.ex_list_nics(node)[0]
 zone_id = [net for net in driver.ex_list_networks() if nic.network_id in net.id][0].zoneid
