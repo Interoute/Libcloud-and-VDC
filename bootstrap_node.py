@@ -11,7 +11,7 @@ driver = vdc.getConn()
 #Assigning the node to bootstrap on it
 node = nodeCreator.nodeCreator.getNode()
 
-#Defining the shell script
+#Defining the shell script which installs chef on a unix-based system
 BOOTSTRAP_SCRIPT = ''' #!/usr/bin/env bash
 curl -L https://www.opscode.com/chef/install.sh | sudo bash
 '''
