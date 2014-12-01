@@ -1,6 +1,6 @@
 
 #1. Quick Overview
-This repository stores different sample scripts which illustrate how libcloud can be used to perform different operations on Interoute's cloud platform (VDC 2.0). For example: creating nodes and networks, assigning a public IPs to a node, applying port forwarding rules and bootstrapping on the nodes.
+This repository stores different sample scripts which illustrate how libcloud can be used to perform different operations on Interoute's cloud platform (VDC 2.0). For example: creating nodes and networks, assigning a public IPs to a node, applying port forwarding rules and bootstrapping on a created node.
 
 #2. Prerequisites:
 * Python 2.5+ should be installed
