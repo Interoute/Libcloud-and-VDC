@@ -17,3 +17,4 @@ conn=VDCDriver(key=vdc_apikey, secret=vdc_secretkey, url=vdc_url)
 #Returns the connection
 def getConn():
 	return conn
+
