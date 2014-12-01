@@ -12,7 +12,7 @@ This repository stores different sample scripts which illustrate how libcloud ca
 `pip install apache-libcloud` 
 
 #4. Running the libcloud scripts:
-* Firstly you should edit the connection.py file with your VDC account API key and secret key.<br/>
+* Firstly you should edit the connection.py file with your VDC API and secret key.<br/>
 * Then, you can run the libcloud scripts by typing in terminal / command prompt: <br/>
 `python <filename>.py` 
 
