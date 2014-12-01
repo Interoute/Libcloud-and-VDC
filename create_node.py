@@ -3,8 +3,6 @@ import connection as vdc
 from libcloud.compute.base import NodeAuthPassword
 import random
 
-
-#Task: Creating a VM on Interoute's VDC 2.0
 #Setting the configuration details for the VM to be created
 image = [image for image in vdc.getConn().list_images() if 'IRT-CENTOS-6.5' in image.name][0]
 size = [size for size in vdc.getConn().list_sizes() if size.name == '6144-2'][0]
