@@ -6,8 +6,8 @@ from libcloud.compute.providers import get_driver
 VDCDriver=get_driver(Provider.CLOUDSTACK)
 
 #set VDC connection details
-vdc_apikey= 'INSERT YOUR VDC ACCOUNT API KEY HERE'
-vdc_secretkey= 'INSERT YOUR VDC ACCOUNT SECRET KEY HERE'
+vdc_apikey= '61C08D-OJFE4bur88saOa9z_gZSFOCixiaVcqGzSkQcdTPnHyRePyibeR2KeADvH1Jo6T8aUhVwTMVT5KCuArA'
+vdc_secretkey= 'ObAgu3Wp3xXs1n8YXGntc2nUAhsBuuVQHRmHNECTn_f9anITv75lK_QRDt2XwrTruFaflcWpOSXH2A2khNtnQg'
 vdc_url= 'https://myservices.interoute.com/myservices/api/vdc'
 
 #create connection to VDC
