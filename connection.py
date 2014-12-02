@@ -8,7 +8,7 @@ VDCDriver=get_driver(Provider.CLOUDSTACK)
 #set VDC connection details
 vdc_apikey= 'INSERT YOUR VDC ACCOUNT API KEY HERE'
 vdc_secretkey= 'INSERT YOUR VDC ACCOUNT SECRET KEY HERE'
-vdc_url= 'https://myservices.interoute.com/myservices/api/vdc'
+vdc_url= 'INSERT YOUR VDC ACCESS URL HERE'
 
 #create connection to VDC
 conn=VDCDriver(key=vdc_apikey, secret=vdc_secretkey, url=vdc_url)
