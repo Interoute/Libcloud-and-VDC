@@ -417,15 +417,13 @@ This repository stores different sample scripts which illustrate how libcloud ca
   VDC command</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl7132583 style='height:15.0pt;border-top:none'>list_balancers<font
-  class="font532583">()</font></td>
+  <td height=20 class=xl7132583 style='height:15.0pt;border-top:none'>list_balancers</td>
   <td class=xl6832583 style='border-top:none;border-left:none'><a
   href="http://cloudstore.interoute.com/main/knowledge-centre/library/api-article/vdc/20/listLoadBalancerRules"
   target="_parent">listLoadBalancerRules</a></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl7132583 style='height:15.0pt;border-top:none'>list_protocols<font
-  class="font532583">()</font></td>
+  <td height=20 class=xl7132583 style='height:15.0pt;border-top:none'>list_protocols</td>
   <td class=xl7032583 style='border-top:none;border-left:none'>No Equivalent
   VDC command</td>
  </tr>
