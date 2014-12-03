@@ -1,24 +1,33 @@
 
-#1. Quick Overview
-This repository stores different sample scripts which illustrate how libcloud can be used to perform different operations on Interoute's cloud platform (VDC 2.0). For example: creating nodes and networks, assigning a public IPs to a node, applying port forwarding rules and bootstrapping on a created node.
+#1. Introduction
 
-#2. Prerequisites:
-* Python 2.5+ should be installed
-* You should install pip.
+This repository contains sample scripts which illustrate how [Apache Libcloud](http://libcloud.apache.org/) can be used to perform basic operations on [Interoute's Virtual Data Centre](http://cloudstore.interoute.com/main/WhatInterouteVDC) cloud platform. For example, creating virtual machines ('nodes' in Libcloud terminology) and networks, assigning a public IP address to a virtual machine, applying port forwarding rules and bootstrapping (running commands to install software and configure the machine) on a newly-deployed virtual machine.
 
-#3. Installation:
-* Type in terminal / command prompt:
-<br/>
+The [CLOUDSTACK driver](https://libcloud.readthedocs.org/en/latest/compute/drivers/cloudstack.html) for Libcloud is used, which is compatible with the [Virtual Data Centre API](http://cloudstore.interoute.com/main/knowledge-centre/library/vdc-api-introduction-api).
+
+#2. Prerequisites
+
+Python 2.5+ should be installed.
+
+You should install the Python installer program, pip. ([Install pip](https://pip.pypa.io/en/latest/installing.html))
+
+#3. Installation
+
+Type in terminal / command prompt:
+
 `pip install apache-libcloud` 
 
-#4. Running the libcloud scripts:
-* Firstly you should edit the connection.py file with your VDC API key, secret key and URL.<br/>
-* Then, you can run the libcloud scripts by typing in terminal / command prompt: <br/>
+#4. Running the Libcloud scripts
+
+First, you should edit the connection.py file to insert the API key, Secret key and access URL for your VDC account. ([Instructions for finding VDC access keys](http://cloudstore.interoute.com/main/knowledge-centre/library/vdc-api-introduction-api#d56e140))
+
+Then, you can run the libcloud scripts by typing in terminal / command prompt: 
+
 `python <filename>.py` 
 
-#5. Supported Libcloud Commands:
+#5. Supported Libcloud commands
 
-<p>The table below shows the list of libcloud commands that are supported on VDC 2.0. Any libcloud commands that are not in this list, are not supported by Interoute's VDC 2.0.</p>
+<p>The table below shows the list of Libcloud commands, as contained in the CLOUDSTACK driver, which are supported by the VDC 2.0 API. Any Libcloud commands that are not in this list, are not supported for VDC 2.0.</p>
 
 
 <div id="Libcloud Commands_2055" align=center x:publishsource="Excel">
@@ -29,9 +38,9 @@ This repository stores different sample scripts which illustrate how libcloud ca
  <col width=387 style='mso-width-source:userset;mso-width-alt:14153;width:290pt'>
  <tr height=20 style='mso-height-source:userset;height:15.0pt'>
   <td rowspan=4 height=80 class=xl682055 width=407 style='height:60.0pt;
-  width:305pt'><b>Libcloud Commands</b></td>
+  width:305pt'><b>Libcloud Command</b></td>
   <td rowspan=4 class=xl682055 width=387 style='width:290pt'><b>VDC 2.0 API
-  Commands</b></td>
+  Command</b></td>
  </tr>
  <tr height=20 style='mso-height-source:userset;height:15.0pt'>
  </tr>
