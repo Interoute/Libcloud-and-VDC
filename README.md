@@ -1,19 +1,19 @@
 
 #1. Introduction
 
-This repository contains sample scripts which illustrate how [Apache Libcloud](http://libcloud.apache.org/) can be used to perform basic operations on [Interoute's Virtual Data Centre](http://cloudstore.interoute.com/main/WhatInterouteVDC) cloud platform. For example, creating virtual machines ('nodes' in Libcloud terminology) and networks, assigning a public IP address to a virtual machine, applying port forwarding rules and bootstrapping (running commands to install software and configure the machine) on a newly-deployed virtual machine.
+This repository contains sample scripts which illustrate how [Apache Libcloud](http://libcloud.apache.org/) can be used to perform basic operations on [Interoute's Virtual Data Centre](http://cloudstore.interoute.com/main/WhatInterouteVDC) cloud platform. For example, creating virtual machines ('nodes' in Libcloud terminology) and networks, assigning a public IP address to a virtual machine, applying port forwarding rules, and bootstrapping (running some initial commands to install software and configure the machine) a newly-deployed virtual machine.
 
 The [CLOUDSTACK driver](https://libcloud.readthedocs.org/en/latest/compute/drivers/cloudstack.html) for Libcloud is used, which is compatible with the [Virtual Data Centre API](http://cloudstore.interoute.com/main/knowledge-centre/library/vdc-api-introduction-api).
 
 #2. Prerequisites
 
-Python 2.5+ should be installed.
+Python 2.5 or later should be installed.
 
 You should install the Python installer program, pip. ([Install pip](https://pip.pypa.io/en/latest/installing.html))
 
 #3. Installation
 
-Type in terminal / command prompt:
+Type in the terminal/command prompt:
 
 `pip install apache-libcloud` 
 
@@ -21,7 +21,7 @@ Type in terminal / command prompt:
 
 First, you should edit the connection.py file to insert the API key, Secret key and access URL for your VDC account. ([Instructions for finding VDC access keys](http://cloudstore.interoute.com/main/knowledge-centre/library/vdc-api-introduction-api#d56e140))
 
-Then, you can run the libcloud scripts by typing in terminal / command prompt: 
+Then, you can run the libcloud scripts by typing in a terminal / command prompt: 
 
 `python <filename>.py` 
 
