@@ -27,7 +27,7 @@ Then, you can run the libcloud scripts by typing in a terminal / command prompt:
 
 #5. Supported Libcloud commands
 
-<p>The table below shows the list of Libcloud commands, as contained in the CLOUDSTACK driver, which are supported by the VDC 2.0 API. Any Libcloud commands that are not in this list, are not supported for VDC 2.0.</p>
+The table below shows the list of Libcloud commands, as contained in the CLOUDSTACK driver, which are supported by the VDC 2.0 API. Any Libcloud commands that are not in this list, are not supported for VDC 2.0.
 
 
 | Libcloud Command                | VDC 2.0 API Command                                                                                                                            |
